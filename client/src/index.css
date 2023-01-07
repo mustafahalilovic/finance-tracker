@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*{
+    margin: 0px;
+}
+body{
+    background-color: aliceblue;
+    font-family: 'Roboto Slab', serif;
+}
+
+h1{
+    letter-spacing: 2px;
+}
+
+.my-navbar{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    box-shadow: 1px 3px 3px gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.my-dropdown{
+    right: 130px;
+    position: fixed;
+}
+
+.my-options{
+    background-color: white;
+    color: blue;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.my-option{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: blue;
+    width: 200px;
+    padding: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.my-profile{
+    width: 500px;
+    height: 400px;
+    margin: 100px 0px;
+    padding: 10px;
+}
+
+.my-profile h2{
+    border-bottom: 2px solid gray;
+    box-shadow: 1px 1px 1px gray;
+    padding: 5px 0px;
+}
+p{
+    margin: 0;
+}
+
+.my-total{
+    font-size: 2em;
+    letter-spacing: 1.5px;
+}
+
+.my-i-e{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+    padding: 20px;
+    margin: 10px 0px;
+    box-shadow: 1px 3px 3px gray;
+}
+.my-value{
+    font-size: large;
+    letter-spacing: 1.5px;
+}
+.my-v1{
+    color: green;
+}
+.my-v2{
+    color: red;
+}
+.my-latests-c p{
+    padding: 5px 0px;
+    border-bottom: 2px solid gray;
+    font-size: 1.2em;
+}
+
+.my-latests{
+    overflow-y: scroll;
+    height: 300px;
+    margin: 10px;
+}
+
+.my-latest{
+    box-shadow: 1px 2px 2px 1px gray;
+    padding: 5px 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.b-green{
+    border-right: 4px solid green;
+}
+
+.b-red{
+    border-right: 4px solid red;
+}
+
+.my-transaction{
+    margin: 100px auto;
+    width: 500px;
+    height: 500px;
+}
+
+.my-transaction label{
+    margin-top: 15px;
+}
+
+.nav-links{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-link:hover{
+    transition: 0.3s;
+    border-bottom: 1px solid white;
+}
+
+.profile-con{
+    display: flex;
+    justify-content: space-around;
+}
+
+.my-search{
+    margin: 110px 10px;
+    width: 600px;
+}
+
+.my-search h3{
+    border-bottom: 2px solid gray;
+    padding-bottom: 5px;
+}
+
+.results{
+    height: 150px;
+    overflow-y: scroll;
+}
